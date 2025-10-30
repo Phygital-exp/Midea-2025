@@ -2,7 +2,7 @@ let debounceTimer;
 let fuse = null;
 let fullData = [];
 
-const API_URL = 'https://midea-2025-production.up.railway.app/';
+const API_URL = 'https://midea-2025-production.up.railway.app/api/Midea/pdv';
 // Cargar los datos de la API
 async function loadData() {
     try {
